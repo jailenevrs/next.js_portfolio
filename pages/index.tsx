@@ -45,7 +45,7 @@ export default function Home() {
             Lets work together. I want to make your design ideas come to life! 
           </p>
          <div className='flex justify-center'>
-          <Image src={laptop} className="hover"/>
+          <Image src={laptop} className="hover" alt="purple animated laptop"/>
          </div>
         
         </div>
@@ -62,8 +62,8 @@ export default function Home() {
            
          
          <div className='image-container'>
-    <Image src={icon} className="avi"/>
-    <Image src={icon2} className="hoverPic"/>
+    <Image src={icon} className="avi" alt="animation of myself"/>
+    <Image src={icon2} className="hoverPic" alt= "real portrait of myself"/>
         </div>
         <div className='porfolio' id='portfolio'>
           <h3 className='relative left-7 text-3xl mt-10 py-1'>Portfolio</h3>
