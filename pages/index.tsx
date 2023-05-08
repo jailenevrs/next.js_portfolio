@@ -10,7 +10,6 @@ import icon from "../public/me.png"
 import icon2 from "../public/realme-modified.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { HiOutlineSparkles } from 'react-icons/hi';
-import { styled } from '@material-ui/core';
 import { StylesContext } from '@material-ui/styles';
 import ContactForm from './contactForm';
 import emailjs from '@emailjs/browser';
