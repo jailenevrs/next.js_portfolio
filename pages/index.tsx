@@ -105,7 +105,7 @@ export default function Home() {
 
         </div>
 <div></div>
-<h3 id="contact" className='relative left-7 text-3xl mt-10 py-1'>I'd love to hear from you!</h3>
+<h3 id="contact" className='relative left-7 text-3xl mt-10 py-1'>I&apos;d love to hear from you!</h3>
      <ContactForm />
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
          <a href="https://www.linkedin.com/in/jailene-veras-36a498174/"><AiFillLinkedin /></a> 
