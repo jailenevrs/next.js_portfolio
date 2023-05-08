@@ -14,6 +14,7 @@ import { styled } from '@material-ui/core';
 import { StylesContext } from '@material-ui/styles';
 import ContactForm from './contactForm';
 import emailjs from '@emailjs/browser';
+import codegenie from "../public/genieMode.png"
 
 
 
@@ -71,7 +72,7 @@ export default function Home() {
           <div className="card-container">
   <a href="https://example.com" className="card">
     <div className="card-image">
-      <img src="/images/portfolio-image-1.jpg" alt="portfolio image 1"/>
+      <Image src={""} alt="portfolio image 1"/>
       <div className="card-image-overlay"></div>
     </div>
     <div className="card-content">
@@ -81,7 +82,7 @@ export default function Home() {
   </a>
   <a href="https://glacial-beyond-25840.herokuapp.com/" className="card">
     <div className="card-image">
-      <img src="/genieMode.png" alt="Portfolio Image 2" />
+    <Image src={codegenie} alt="Portfolio Image 2" />
       <div className="card-image-overlay"></div>
     </div>
     <div className="card-content">
@@ -91,7 +92,7 @@ export default function Home() {
   </a>
   <a href="https://example.com" className="card">
     <div className="card-image">
-      <img src="/images/portfolio-image-3.jpg" alt="portfolio image 3" />
+      <Image src={""} alt="portfolio image 3" />
       <div className="card-image-overlay"></div>
     </div>
     <div className="card-content">
