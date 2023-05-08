@@ -19,7 +19,7 @@ function ContactForm() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     // Send email using EmailJS
