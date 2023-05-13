@@ -13,6 +13,7 @@ import { HiOutlineSparkles } from 'react-icons/hi';
 import ContactForm from './contactForm';
 import emailjs from '@emailjs/browser';
 import codegenie from "../public/genieMode.png"
+import cocktail from "../public/cocktail.png"
 
 
 
@@ -21,8 +22,9 @@ export default function Home() {
   return (
     <div>
       <main>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <section className="bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 min-h-screen">
-      <nav className="navbar">
+      <nav className="navbar flex-wrap justify-center">
           <h1 className='text-xl'></h1>
           <ul className="ml-7 flex items-end h-full">
   <li className="mr-6">
@@ -48,7 +50,7 @@ export default function Home() {
          </div>
         
         </div>
-        <div className='aboutMe' id="boutme">
+        <div className='aboutMe flex-wrap justify-center max-w-4xl' id="boutme">
           <h3 className=" relative left-7 text-3xl py-1" id="titleMe">About Me</h3>
          
           <p className=" relative left-7 w-1/2 h-32 max-w-full max-h-full min-w-20 min-h-10 text-gray-800 text-lg" > Graduated from University of Miami Bootcamp in fullstack Development. In my time in the bootcamp I was able to work on a multitude of projects in programming and designing applications.
@@ -67,7 +69,7 @@ export default function Home() {
         <div className='porfolio' id='portfolio'>
           <h3 className='relative left-7 text-3xl mt-10 py-1'>Portfolio</h3>
 
-          <div className="card-container">
+          <div className="card-container grid-cols-1">
   <a href="https://example.com" className="card">
     <div className="card-image">
       <Image src={""} alt="portfolio image 1"/>
@@ -90,16 +92,15 @@ export default function Home() {
   </a>
   <a href="https://example.com" className="card">
     <div className="card-image">
-      <Image src={""} alt="portfolio image 3" />
+      <Image src={"cocktail"} alt="portfolio image 3" />
       <div className="card-image-overlay"></div>
     </div>
     <div className="card-content">
-      <h2>Weather Dashboard</h2>
-      <p>Description of project 3</p>
+      <h2>Chance of Cocktails</h2>
+      <p> Cocktail generator that suggests unique and delicious cocktail recipes based on the user&apos;s location</p>
     </div>
   </a>
 </div>
-
 
         </div>
 <div></div>
