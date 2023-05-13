@@ -92,7 +92,7 @@ export default function Home() {
   </a>
   <a href="https://example.com" className="card">
     <div className="card-image">
-      <Image src={"cocktail"} alt="portfolio image 3" />
+      <Image src={cocktail} alt="portfolio image 3" />
       <div className="card-image-overlay"></div>
     </div>
     <div className="card-content">
