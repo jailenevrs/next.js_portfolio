@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <div>
-      <main>
+         <main>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <section className="bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-100 min-h-screen">
       <nav className="navbar flex-wrap justify-center">
