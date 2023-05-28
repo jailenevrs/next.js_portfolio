@@ -14,6 +14,7 @@ import ContactForm from './contactForm';
 import emailjs from '@emailjs/browser';
 import codegenie from "../public/genieMode.png"
 import cocktail from "../public/cocktail.png"
+import jessblinks from "../public/jessblinks.png"
 
 
 
@@ -72,12 +73,12 @@ export default function Home() {
           <div className="card-container grid-cols-1">
   <a href="https://example.com" className="card">
     <div className="card-image">
-      <Image src={""} alt="portfolio image 1"/>
+      <Image src={jessblinks} alt="portfolio image 1"/>
       <div className="card-image-overlay"></div>
     </div>
     <div className="card-content">
       <h2>JessBlinks</h2>
-      <p>Description of project 1</p>
+      <p>Website for a lash technician to showcase her work and enable clients to easily schedule appointments</p>
     </div>
   </a>
   <a href="https://glacial-beyond-25840.herokuapp.com/" className="card">
@@ -90,7 +91,7 @@ export default function Home() {
       <p>Forum style application for Fullstack Developers. Features AI technology to get coding answers.</p>
     </div>
   </a>
-  <a href="https://example.com" className="card">
+  <a href="https://jailenevrs.github.io/chanceofcocktails/" className="card">
     <div className="card-image">
       <Image src={cocktail} alt="portfolio image 3" />
       <div className="card-image-overlay"></div>
