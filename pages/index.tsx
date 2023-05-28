@@ -57,8 +57,7 @@ export default function Home() {
           <p className=" relative left-7 w-1/2 h-32 max-w-full max-h-full min-w-20 min-h-10 text-gray-800 text-lg" > Graduated from University of Miami Bootcamp in fullstack Development. In my time in the bootcamp I was able to work on a multitude of projects in programming and designing applications.
           Some Technologies and languages I have experience using include : HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, MongoDB, MySQL, Command Line, and Git. 
            <br></br>
-           <br></br>
-           Check out my work down below!
+           <b>Check out my work down below!</b>
            </p>
       </div>
            
@@ -68,7 +67,7 @@ export default function Home() {
     <Image src={icon2} className="hoverPic" alt= "real portrait of myself"/>
         </div>
         <div className='porfolio' id='portfolio'>
-          <h3 className='relative left-7 text-3xl mt-10 py-1'>Portfolio</h3>
+          <h3 id="portfolioHeader" className='relative left-7 text-3xl mt-10 py-1'>Portfolio</h3>
 
           <div className="card-container grid-cols-1">
   <a href="https://example.com" className="card">
