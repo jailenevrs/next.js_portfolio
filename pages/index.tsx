@@ -70,7 +70,7 @@ export default function Home() {
           <h3 id="portfolioHeader" className='relative left-7 text-3xl mt-10 py-1'>Portfolio</h3>
 
           <div className="card-container grid-cols-1">
-  <a href="https://example.com" className="card">
+  <a href="https://jailenevrs.github.io/jessBlinks/" className="card">
     <div className="card-image">
       <Image src={jessblinks} alt="portfolio image 1"/>
       <div className="card-image-overlay"></div>
